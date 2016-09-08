@@ -28,7 +28,7 @@ def quiz(request, quiz_number):
 		"quiz_number":quiz_number,
 	}
 	return render(request,"quiz/quiz.html", context)
-def question(request, quiz_number. question_number):
+def question(request, quiz_number, question_number):
 	context = {
 		"question_number": question_number,
     	"question": "Hur många bultar har ölandsbron?",
