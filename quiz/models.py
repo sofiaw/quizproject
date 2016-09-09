@@ -6,8 +6,8 @@ class Quiz(models.Model):
 	name = models.CharField(max_length=100),
 	description = models.TextField(),
 
-	class Question(models.Model):
-	Question= models.TextField(),
+class Question(models.Model):
+	question = models.TextField(),
 	answer1 = models.CharField(max_length=100),
 	answer2 = models.CharField(max_length=100),
 	answer3 = models.CharField(max_length=100),
