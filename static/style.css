@@ -1,9 +1,45 @@
 body { 
-	background: #f5f7fa;
+	background: #fdfffc;
+	margin-left: 300;
+
 }
-h1,h2,h3 {
-	font-family: "Arial", "sans-serif"
-	font font-weight: 300;
-	color: #5257c;
+.answer {
+	font-size: 100
 }
 
+.lead {
+	max-width: 100; /*hur kan jag korta ner textlängden?
+}
+.container
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+}
+h1,h2,h3 {
+	font-family: "Source Sans Pro", "sans-serif"
+	font-weight: 300;
+	font-size: 24;
+	color: #011627;
+	margin-left: :300;
+}
+
+
+
+}
+a {
+	font-family: "Source Sans Pro", "sans-serif"
+	font-weight: 300;
+	color: #011627;
+}
+a:hoover {
+	color: #2ec4b6
+}
